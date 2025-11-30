@@ -1,0 +1,29 @@
+[2025-11-14T16:20:19.130+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-14T16:20:19.147+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: iot_sensor_data_dag.notify_and_mail_if_fail scheduled__2025-11-14T16:19:45+00:00 [queued]>
+[2025-11-14T16:20:19.154+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: iot_sensor_data_dag.notify_and_mail_if_fail scheduled__2025-11-14T16:19:45+00:00 [queued]>
+[2025-11-14T16:20:19.155+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-11-14T16:20:19.165+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): notify_and_mail_if_fail> on 2025-11-14 16:19:45+00:00
+[2025-11-14T16:20:19.172+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=745) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-11-14T16:20:19.175+0000] {standard_task_runner.py:72} INFO - Started process 748 to run task
+[2025-11-14T16:20:19.175+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'iot_sensor_data_dag', 'notify_and_mail_if_fail', 'scheduled__2025-11-14T16:19:45+00:00', '--job-id', '1116', '--raw', '--subdir', 'DAGS_FOLDER/DEPI.py', '--cfg-path', '/tmp/tmpobhy98th']
+[2025-11-14T16:20:19.176+0000] {standard_task_runner.py:105} INFO - Job 1116: Subtask notify_and_mail_if_fail
+[2025-11-14T16:20:19.212+0000] {task_command.py:467} INFO - Running <TaskInstance: iot_sensor_data_dag.notify_and_mail_if_fail scheduled__2025-11-14T16:19:45+00:00 [running]> on host 4f76d54186b6
+[2025-11-14T16:20:19.270+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='iot_sensor_data_dag' AIRFLOW_CTX_TASK_ID='notify_and_mail_if_fail' AIRFLOW_CTX_EXECUTION_DATE='2025-11-14T16:19:45+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-14T16:19:45+00:00'
+[2025-11-14T16:20:19.271+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-11-14T16:20:19.272+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-11-14T16:20:19.273+0000] {logging_mixin.py:190} INFO - Current task name:notify_and_mail_if_fail state:running start_date:2025-11-14 16:20:19.147866+00:00
+[2025-11-14T16:20:19.273+0000] {logging_mixin.py:190} INFO - Dag name:iot_sensor_data_dag and current dag run status:running
+[2025-11-14T16:20:19.274+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-11-14T16:20:21.160+0000] {logging_mixin.py:190} INFO - Failed to send email: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ffacd0b85a97d-42b53f17cbfsm10609908f8f.35 - gsmtp')
+[2025-11-14T16:20:21.161+0000] {python.py:218} INFO - Done. Returned value was: None
+[2025-11-14T16:20:21.169+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-11-14T16:20:21.170+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=iot_sensor_data_dag, task_id=notify_and_mail_if_fail, run_id=scheduled__2025-11-14T16:19:45+00:00, execution_date=20251114T161945, start_date=20251114T162019, end_date=20251114T162021
+[2025-11-14T16:20:21.190+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-11-14T16:20:21.191+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-11-14T16:20:21.192+0000] {logging_mixin.py:190} INFO - Dag name:iot_sensor_data_dag queued_at:2025-11-14 16:20:15.576725+00:00
+[2025-11-14T16:20:21.192+0000] {logging_mixin.py:190} INFO - Task hostname:4f76d54186b6 operator:PythonOperator
+[2025-11-14T16:20:21.207+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-14T16:20:21.217+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-14T16:20:21.219+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

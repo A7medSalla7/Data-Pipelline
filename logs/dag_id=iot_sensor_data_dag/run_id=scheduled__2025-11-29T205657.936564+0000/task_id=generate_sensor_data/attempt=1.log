@@ -1,0 +1,11 @@
+{"timestamp":"2025-11-29T20:56:58.368629Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-29T20:56:58.370664Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/DEPI.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-29T20:56:58.419135Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-11-29T20:56:58.419850Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-11-29T20:56:58.420392Z","level":"info","event":"Current task name:generate_sensor_data","logger":"task.stdout"}
+{"timestamp":"2025-11-29T20:56:58.420777Z","level":"info","event":"Dag name:iot_sensor_data_dag","logger":"task.stdout"}
+{"timestamp":"2025-11-29T20:56:58.426039Z","level":"info","event":"Message delivered to Data-Sensor [2]","logger":"task.stdout"}
+{"timestamp":"2025-11-29T20:56:58.427428Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-11-29T20:56:58.441772Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-11-29T20:56:58.443395Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-11-29T20:56:58.443683Z","level":"info","event":"Task operator:<Task(PythonOperator): generate_sensor_data>","logger":"task.stdout"}

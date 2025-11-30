@@ -1,0 +1,29 @@
+[2025-11-17T12:09:38.371+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-17T12:09:38.490+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: iot_kafka_produce_only.produce_sensor_data scheduled__2025-11-17T12:09:10+00:00 [queued]>
+[2025-11-17T12:09:38.499+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: iot_kafka_produce_only.produce_sensor_data scheduled__2025-11-17T12:09:10+00:00 [queued]>
+[2025-11-17T12:09:38.500+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-11-17T12:09:38.512+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): produce_sensor_data> on 2025-11-17 12:09:10+00:00
+[2025-11-17T12:09:38.518+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1033) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-11-17T12:09:38.520+0000] {standard_task_runner.py:72} INFO - Started process 1038 to run task
+[2025-11-17T12:09:38.520+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'iot_kafka_produce_only', 'produce_sensor_data', 'scheduled__2025-11-17T12:09:10+00:00', '--job-id', '2346', '--raw', '--subdir', 'DAGS_FOLDER/IOT.py', '--cfg-path', '/tmp/tmpjq625k72']
+[2025-11-17T12:09:38.522+0000] {standard_task_runner.py:105} INFO - Job 2346: Subtask produce_sensor_data
+[2025-11-17T12:09:38.562+0000] {task_command.py:467} INFO - Running <TaskInstance: iot_kafka_produce_only.produce_sensor_data scheduled__2025-11-17T12:09:10+00:00 [running]> on host 4f76d54186b6
+[2025-11-17T12:09:38.628+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='iot_kafka_produce_only' AIRFLOW_CTX_TASK_ID='produce_sensor_data' AIRFLOW_CTX_EXECUTION_DATE='2025-11-17T12:09:10+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-17T12:09:10+00:00'
+[2025-11-17T12:09:38.630+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-11-17T12:09:38.631+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-11-17T12:09:38.631+0000] {logging_mixin.py:190} INFO - Current task name:produce_sensor_data state:running start_date:2025-11-17 12:09:38.491518+00:00
+[2025-11-17T12:09:38.632+0000] {logging_mixin.py:190} INFO - Dag name:iot_kafka_produce_only and current dag run status:running
+[2025-11-17T12:09:38.632+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-11-17T12:14:25.619+0000] {logging_mixin.py:190} INFO - Message delivery failed: KafkaError{code=_MSG_TIMED_OUT,val=-192,str="Local: Message timed out"}
+[2025-11-17T12:14:25.622+0000] {python.py:218} INFO - Done. Returned value was: None
+[2025-11-17T12:14:25.641+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-11-17T12:14:25.642+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=iot_kafka_produce_only, task_id=produce_sensor_data, run_id=scheduled__2025-11-17T12:09:10+00:00, execution_date=20251117T120910, start_date=20251117T120938, end_date=20251117T121425
+[2025-11-17T12:14:25.675+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-11-17T12:14:25.677+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-11-17T12:14:25.678+0000] {logging_mixin.py:190} INFO - Dag name:iot_kafka_produce_only queued_at:2025-11-17 12:09:35.354815+00:00
+[2025-11-17T12:14:25.679+0000] {logging_mixin.py:190} INFO - Task hostname:4f76d54186b6 operator:PythonOperator
+[2025-11-17T12:14:25.712+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-17T12:14:25.732+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-17T12:14:25.734+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

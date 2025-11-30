@@ -1,0 +1,52 @@
+[2025-11-15T17:37:24.427+0000] {processor.py:186} INFO - Started process (PID=4398) to work on /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:37:24.428+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from datetime import datetime, timedelta.py for tasks to queue
+[2025-11-15T17:37:24.429+0000] {logging_mixin.py:190} INFO - [2025-11-15T17:37:24.428+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:37:24.645+0000] {logging_mixin.py:190} INFO - [2025-11-15 17:37:24.635346] Inserted sensor data: {'time': '2025-11-15T17:37:24.635346', 'temperature': 27.681979831978243, 'Dissolved_oxygen': 6.024045840682658, 'PH': 7.500341519536878, 'Ammonia': 0.00999620186699514, 'Nitrite': 0.04952354206437725, 'Turbidty': 39.52850083154477, '_id': '6918ba540993dd7430a92c0c'}
+[2025-11-15T17:38:45.333+0000] {processor.py:186} INFO - Started process (PID=4569) to work on /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:38:45.333+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from datetime import datetime, timedelta.py for tasks to queue
+[2025-11-15T17:38:45.335+0000] {logging_mixin.py:190} INFO - [2025-11-15T17:38:45.334+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:38:45.341+0000] {logging_mixin.py:190} INFO - [2025-11-15T17:38:45.341+0000] {dagbag.py:366} INFO - File /opt/airflow/dags/from datetime import datetime, timedelta.py assumed to contain no DAGs. Skipping.
+[2025-11-15T17:38:45.341+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:38:45.352+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from datetime import datetime, timedelta.py took 0.024 seconds
+[2025-11-15T17:39:16.049+0000] {processor.py:186} INFO - Started process (PID=4635) to work on /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:39:16.050+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from datetime import datetime, timedelta.py for tasks to queue
+[2025-11-15T17:39:16.051+0000] {logging_mixin.py:190} INFO - [2025-11-15T17:39:16.051+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:39:16.058+0000] {logging_mixin.py:190} INFO - [2025-11-15T17:39:16.058+0000] {dagbag.py:366} INFO - File /opt/airflow/dags/from datetime import datetime, timedelta.py assumed to contain no DAGs. Skipping.
+[2025-11-15T17:39:16.059+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:39:16.068+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from datetime import datetime, timedelta.py took 0.023 seconds
+[2025-11-15T17:39:38.931+0000] {processor.py:186} INFO - Started process (PID=4667) to work on /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:39:38.932+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from datetime import datetime, timedelta.py for tasks to queue
+[2025-11-15T17:39:38.933+0000] {logging_mixin.py:190} INFO - [2025-11-15T17:39:38.933+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:39:38.940+0000] {logging_mixin.py:190} INFO - [2025-11-15T17:39:38.940+0000] {dagbag.py:366} INFO - File /opt/airflow/dags/from datetime import datetime, timedelta.py assumed to contain no DAGs. Skipping.
+[2025-11-15T17:39:38.940+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:39:38.950+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from datetime import datetime, timedelta.py took 0.023 seconds
+[2025-11-15T17:40:09.030+0000] {processor.py:186} INFO - Started process (PID=4733) to work on /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:40:09.031+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from datetime import datetime, timedelta.py for tasks to queue
+[2025-11-15T17:40:09.032+0000] {logging_mixin.py:190} INFO - [2025-11-15T17:40:09.032+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:40:09.040+0000] {logging_mixin.py:190} INFO - [2025-11-15T17:40:09.040+0000] {dagbag.py:366} INFO - File /opt/airflow/dags/from datetime import datetime, timedelta.py assumed to contain no DAGs. Skipping.
+[2025-11-15T17:40:09.040+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:40:09.051+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from datetime import datetime, timedelta.py took 0.025 seconds
+[2025-11-15T17:40:39.198+0000] {processor.py:186} INFO - Started process (PID=4799) to work on /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:40:39.199+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from datetime import datetime, timedelta.py for tasks to queue
+[2025-11-15T17:40:39.200+0000] {logging_mixin.py:190} INFO - [2025-11-15T17:40:39.200+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:40:39.208+0000] {logging_mixin.py:190} INFO - [2025-11-15T17:40:39.208+0000] {dagbag.py:366} INFO - File /opt/airflow/dags/from datetime import datetime, timedelta.py assumed to contain no DAGs. Skipping.
+[2025-11-15T17:40:39.209+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:40:39.219+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from datetime import datetime, timedelta.py took 0.025 seconds
+[2025-11-15T17:41:09.499+0000] {processor.py:186} INFO - Started process (PID=4865) to work on /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:41:09.500+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from datetime import datetime, timedelta.py for tasks to queue
+[2025-11-15T17:41:09.501+0000] {logging_mixin.py:190} INFO - [2025-11-15T17:41:09.501+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:41:09.510+0000] {logging_mixin.py:190} INFO - [2025-11-15T17:41:09.510+0000] {dagbag.py:366} INFO - File /opt/airflow/dags/from datetime import datetime, timedelta.py assumed to contain no DAGs. Skipping.
+[2025-11-15T17:41:09.510+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:41:09.519+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from datetime import datetime, timedelta.py took 0.024 seconds
+[2025-11-15T17:41:39.688+0000] {processor.py:186} INFO - Started process (PID=4931) to work on /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:41:39.689+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from datetime import datetime, timedelta.py for tasks to queue
+[2025-11-15T17:41:39.690+0000] {logging_mixin.py:190} INFO - [2025-11-15T17:41:39.690+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:41:39.698+0000] {logging_mixin.py:190} INFO - [2025-11-15T17:41:39.697+0000] {dagbag.py:366} INFO - File /opt/airflow/dags/from datetime import datetime, timedelta.py assumed to contain no DAGs. Skipping.
+[2025-11-15T17:41:39.698+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:41:39.708+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from datetime import datetime, timedelta.py took 0.024 seconds
+[2025-11-15T17:42:10.592+0000] {processor.py:186} INFO - Started process (PID=4997) to work on /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:42:10.593+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/from datetime import datetime, timedelta.py for tasks to queue
+[2025-11-15T17:42:10.594+0000] {logging_mixin.py:190} INFO - [2025-11-15T17:42:10.594+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:42:10.601+0000] {logging_mixin.py:190} INFO - [2025-11-15T17:42:10.601+0000] {dagbag.py:366} INFO - File /opt/airflow/dags/from datetime import datetime, timedelta.py assumed to contain no DAGs. Skipping.
+[2025-11-15T17:42:10.601+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/from datetime import datetime, timedelta.py
+[2025-11-15T17:42:10.611+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/from datetime import datetime, timedelta.py took 0.023 seconds

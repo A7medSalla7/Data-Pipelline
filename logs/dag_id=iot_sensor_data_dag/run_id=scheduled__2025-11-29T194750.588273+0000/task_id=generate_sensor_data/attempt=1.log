@@ -1,0 +1,14 @@
+{"timestamp":"2025-11-29T19:48:03.622451Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-29T19:48:03.623330Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/DEPI.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-29T19:48:03.892323Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-11-29T19:48:03.893343Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-11-29T19:48:03.893739Z","level":"info","event":"Current task name:generate_sensor_data","logger":"task.stdout"}
+{"timestamp":"2025-11-29T19:48:03.894205Z","level":"info","event":"Dag name:iot_sensor_data_dag","logger":"task.stdout"}
+{"timestamp":"2025-11-29T19:48:03.908175Z","level":"error","event":"%3|1764445683.907|FAIL|rdkafka#producer-1| [thrd:kafka:9092/bootstrap]: kafka:9092/bootstrap: Connect to ipv4#172.18.0.9:9092 failed: Connection refused (after 1ms in state CONNECT)","logger":"task.stderr"}
+{"timestamp":"2025-11-29T19:48:03.958508Z","level":"error","event":"%3|1764445683.958|FAIL|rdkafka#producer-1| [thrd:kafka:9092/bootstrap]: kafka:9092/bootstrap: Connect to ipv4#172.18.0.9:9092 failed: Connection refused (after 0ms in state CONNECT, 1 identical error(s) suppressed)","logger":"task.stderr"}
+{"timestamp":"2025-11-29T19:48:16.918346Z","level":"error","event":"%4|1764445696.918|METADATAUPDATE|rdkafka#producer-1| [thrd:main]: Partition Data-Sensor(cWrp3p8CQLKHg6VohLbLgw)[0]: new leader-1 not found in cache","logger":"task.stderr"}
+{"timestamp":"2025-11-29T19:48:17.039448Z","level":"info","event":"Message delivered to Data-Sensor [0]","logger":"task.stdout"}
+{"timestamp":"2025-11-29T19:48:17.040168Z","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":215}
+{"timestamp":"2025-11-29T19:48:17.074892Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2025-11-29T19:48:17.075402Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2025-11-29T19:48:17.075779Z","level":"info","event":"Task operator:<Task(PythonOperator): generate_sensor_data>","logger":"task.stdout"}

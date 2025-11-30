@@ -1,0 +1,29 @@
+[2025-11-13T17:59:01.297+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-13T17:59:01.309+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: iot_sensor_data_dag.generate_sensor_data scheduled__2025-11-13T17:58:45+00:00 [queued]>
+[2025-11-13T17:59:01.315+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: iot_sensor_data_dag.generate_sensor_data scheduled__2025-11-13T17:58:45+00:00 [queued]>
+[2025-11-13T17:59:01.316+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-11-13T17:59:01.434+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): generate_sensor_data> on 2025-11-13 17:58:45+00:00
+[2025-11-13T17:59:01.439+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1836) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-11-13T17:59:01.441+0000] {standard_task_runner.py:72} INFO - Started process 1838 to run task
+[2025-11-13T17:59:01.441+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'iot_sensor_data_dag', 'generate_sensor_data', 'scheduled__2025-11-13T17:58:45+00:00', '--job-id', '389', '--raw', '--subdir', 'DAGS_FOLDER/DEPI.py', '--cfg-path', '/tmp/tmp9mugs9cs']
+[2025-11-13T17:59:01.442+0000] {standard_task_runner.py:105} INFO - Job 389: Subtask generate_sensor_data
+[2025-11-13T17:59:01.478+0000] {task_command.py:467} INFO - Running <TaskInstance: iot_sensor_data_dag.generate_sensor_data scheduled__2025-11-13T17:58:45+00:00 [running]> on host 4f76d54186b6
+[2025-11-13T17:59:01.537+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='iot_sensor_data_dag' AIRFLOW_CTX_TASK_ID='generate_sensor_data' AIRFLOW_CTX_EXECUTION_DATE='2025-11-13T17:58:45+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-13T17:58:45+00:00'
+[2025-11-13T17:59:01.545+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-11-13T17:59:01.545+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-11-13T17:59:01.546+0000] {logging_mixin.py:190} INFO - Current task name:generate_sensor_data state:running start_date:2025-11-13 17:59:01.310042+00:00
+[2025-11-13T17:59:01.547+0000] {logging_mixin.py:190} INFO - Dag name:iot_sensor_data_dag and current dag run status:running
+[2025-11-13T17:59:01.547+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-11-13T17:59:01.571+0000] {logging_mixin.py:190} INFO - [2025-11-13 17:59:01.557887] Inserted sensor data: {'time': datetime.datetime(2025, 11, 13, 17, 59, 1, 557887), 'temperature': 27.400795580544827, 'Dissolved_oxygen': 6.000321729087703, 'PH': 7.407017740555596, 'Ammonia': 0.010518642203077409, 'Nitrite': 0.054404056977910946, 'Turbidty': 40.40430939678293, '_id': ObjectId('69161c65e80e74e0a4abc58c')}
+[2025-11-13T17:59:01.572+0000] {python.py:218} INFO - Done. Returned value was: None
+[2025-11-13T17:59:01.581+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-11-13T17:59:01.582+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=iot_sensor_data_dag, task_id=generate_sensor_data, run_id=scheduled__2025-11-13T17:58:45+00:00, execution_date=20251113T175845, start_date=20251113T175901, end_date=20251113T175901
+[2025-11-13T17:59:01.600+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-11-13T17:59:01.600+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-11-13T17:59:01.601+0000] {logging_mixin.py:190} INFO - Dag name:iot_sensor_data_dag queued_at:2025-11-13 17:59:00.105096+00:00
+[2025-11-13T17:59:01.601+0000] {logging_mixin.py:190} INFO - Task hostname:4f76d54186b6 operator:PythonOperator
+[2025-11-13T17:59:01.619+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-13T17:59:01.638+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-13T17:59:01.642+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

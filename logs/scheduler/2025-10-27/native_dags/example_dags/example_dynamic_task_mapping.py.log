@@ -1,0 +1,21 @@
+[2025-10-27T11:17:37.284+0000] {processor.py:186} INFO - Started process (PID=90) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-27T11:17:37.285+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-10-27T11:17:37.287+0000] {logging_mixin.py:190} INFO - [2025-10-27T11:17:37.286+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-27T11:17:37.293+0000] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-27T11:17:37.312+0000] {logging_mixin.py:190} INFO - [2025-10-27T11:17:37.311+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T11:17:37.323+0000] {logging_mixin.py:190} INFO - [2025-10-27T11:17:37.322+0000] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
+[2025-10-27T11:17:37.341+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.061 seconds
+[2025-10-27T11:18:08.061+0000] {processor.py:186} INFO - Started process (PID=155) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-27T11:18:08.063+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-10-27T11:18:08.065+0000] {logging_mixin.py:190} INFO - [2025-10-27T11:18:08.065+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-27T11:18:08.072+0000] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-27T11:18:08.085+0000] {logging_mixin.py:190} INFO - [2025-10-27T11:18:08.085+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T11:18:08.094+0000] {logging_mixin.py:190} INFO - [2025-10-27T11:18:08.094+0000] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
+[2025-10-27T11:18:08.108+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.051 seconds
+[2025-10-27T11:18:38.521+0000] {processor.py:186} INFO - Started process (PID=220) to work on /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-27T11:18:38.522+0000] {processor.py:914} INFO - Processing file /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py for tasks to queue
+[2025-10-27T11:18:38.524+0000] {logging_mixin.py:190} INFO - [2025-10-27T11:18:38.523+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-27T11:18:38.530+0000] {processor.py:925} INFO - DAG(s) 'example_dynamic_task_mapping' retrieved from /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py
+[2025-10-27T11:18:38.544+0000] {logging_mixin.py:190} INFO - [2025-10-27T11:18:38.544+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T11:18:38.554+0000] {logging_mixin.py:190} INFO - [2025-10-27T11:18:38.554+0000] {dag.py:4180} INFO - Setting next_dagrun for example_dynamic_task_mapping to None, run_after=None
+[2025-10-27T11:18:38.569+0000] {processor.py:208} INFO - Processing /home/airflow/.local/lib/python3.12/site-packages/airflow/example_dags/example_dynamic_task_mapping.py took 0.052 seconds

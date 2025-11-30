@@ -1,0 +1,22 @@
+[2025-11-15T18:47:51.991+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-15T18:47:52.004+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: iot_sensor_data_dag.generate_sensor_data scheduled__2025-11-15T18:47:30+00:00 [queued]>
+[2025-11-15T18:47:52.010+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: iot_sensor_data_dag.generate_sensor_data scheduled__2025-11-15T18:47:30+00:00 [queued]>
+[2025-11-15T18:47:52.011+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-11-15T18:47:52.022+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): generate_sensor_data> on 2025-11-15 18:47:30+00:00
+[2025-11-15T18:47:52.028+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1951) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-11-15T18:47:52.030+0000] {standard_task_runner.py:72} INFO - Started process 1953 to run task
+[2025-11-15T18:47:52.030+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'iot_sensor_data_dag', 'generate_sensor_data', 'scheduled__2025-11-15T18:47:30+00:00', '--job-id', '1341', '--raw', '--subdir', 'DAGS_FOLDER/DEPI.py', '--cfg-path', '/tmp/tmpukaum2vl']
+[2025-11-15T18:47:52.031+0000] {standard_task_runner.py:105} INFO - Job 1341: Subtask generate_sensor_data
+[2025-11-15T18:47:52.303+0000] {task_command.py:467} INFO - Running <TaskInstance: iot_sensor_data_dag.generate_sensor_data scheduled__2025-11-15T18:47:30+00:00 [running]> on host 4f76d54186b6
+[2025-11-15T18:47:52.355+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='iot_sensor_data_dag' AIRFLOW_CTX_TASK_ID='generate_sensor_data' AIRFLOW_CTX_EXECUTION_DATE='2025-11-15T18:47:30+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-15T18:47:30+00:00'
+[2025-11-15T18:47:52.356+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-11-15T18:47:52.356+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-11-15T18:47:52.357+0000] {logging_mixin.py:190} INFO - Current task name:generate_sensor_data state:running start_date:2025-11-15 18:47:52.005044+00:00
+[2025-11-15T18:47:52.358+0000] {logging_mixin.py:190} INFO - Dag name:iot_sensor_data_dag and current dag run status:running
+[2025-11-15T18:47:52.358+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-11-15T18:47:52.396+0000] {logging_mixin.py:190} INFO - [2025-11-15 18:47:52.372489] Inserted sensor data: {'time': '2025-11-15T18:47:52.372489', 'temperature': 27.360309566939918, 'Dissolved_oxygen': 5.920323866401429, 'PH': 7.5769115851749715, 'Ammonia': 0.009905201008146878, 'Nitrite': 0.04877580697023581, 'Turbidty': 40.842463145731074, '_id': '6918cad8bbaaa029c842b0b2'}
+[2025-11-16T19:14:22.526+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-16T19:14:22.552+0000] {taskinstance.py:2604} INFO - Dependencies not met for <TaskInstance: iot_sensor_data_dag.generate_sensor_data scheduled__2025-11-15T18:47:30+00:00 [failed]>, dependency 'Task Instance State' FAILED: Task is in the 'failed' state.
+[2025-11-16T19:14:22.560+0000] {local_task_job_runner.py:166} INFO - Task is not able to be run

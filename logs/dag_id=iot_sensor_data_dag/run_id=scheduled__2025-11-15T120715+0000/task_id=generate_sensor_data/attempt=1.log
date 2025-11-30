@@ -1,0 +1,31 @@
+[2025-11-15T12:07:33.554+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-15T12:07:33.565+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: iot_sensor_data_dag.generate_sensor_data scheduled__2025-11-15T12:07:15+00:00 [queued]>
+[2025-11-15T12:07:33.570+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: iot_sensor_data_dag.generate_sensor_data scheduled__2025-11-15T12:07:15+00:00 [queued]>
+[2025-11-15T12:07:33.571+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-11-15T12:07:33.581+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): generate_sensor_data> on 2025-11-15 12:07:15+00:00
+[2025-11-15T12:07:33.587+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=568) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-11-15T12:07:33.589+0000] {standard_task_runner.py:72} INFO - Started process 570 to run task
+[2025-11-15T12:07:33.589+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'iot_sensor_data_dag', 'generate_sensor_data', 'scheduled__2025-11-15T12:07:15+00:00', '--job-id', '1217', '--raw', '--subdir', 'DAGS_FOLDER/DEPI.py', '--cfg-path', '/tmp/tmpxhywxta2']
+[2025-11-15T12:07:33.590+0000] {standard_task_runner.py:105} INFO - Job 1217: Subtask generate_sensor_data
+[2025-11-15T12:07:33.896+0000] {task_command.py:467} INFO - Running <TaskInstance: iot_sensor_data_dag.generate_sensor_data scheduled__2025-11-15T12:07:15+00:00 [running]> on host 4f76d54186b6
+[2025-11-15T12:07:33.949+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='iot_sensor_data_dag' AIRFLOW_CTX_TASK_ID='generate_sensor_data' AIRFLOW_CTX_EXECUTION_DATE='2025-11-15T12:07:15+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-15T12:07:15+00:00'
+[2025-11-15T12:07:33.950+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-11-15T12:07:33.951+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-11-15T12:07:33.951+0000] {logging_mixin.py:190} INFO - Current task name:generate_sensor_data state:running start_date:2025-11-15 12:07:33.565944+00:00
+[2025-11-15T12:07:33.952+0000] {logging_mixin.py:190} INFO - Dag name:iot_sensor_data_dag and current dag run status:running
+[2025-11-15T12:07:33.952+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-11-15T12:07:33.974+0000] {logging_mixin.py:190} INFO - [2025-11-15 12:07:33.965386] Inserted sensor data: {'time': '2025-11-15T12:07:33.965386', 'temperature': 27.355143522619517, 'Dissolved_oxygen': 6.038603239167843, 'PH': 7.498395247784594, 'Ammonia': 0.009972163742618273, 'Nitrite': 0.05007693387154917, 'Turbidty': 39.29668367922403, '_id': '69186d059210a982717142ef'}
+[2025-11-15T12:11:43.632+0000] {job.py:229} INFO - Heartbeat recovered after 11.68 seconds
+[2025-11-15T12:12:29.022+0000] {python.py:218} INFO - Done. Returned value was: None
+[2025-11-15T12:12:46.212+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-11-15T12:12:46.218+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=iot_sensor_data_dag, task_id=generate_sensor_data, run_id=scheduled__2025-11-15T12:07:15+00:00, execution_date=20251115T120715, start_date=20251115T120733, end_date=20251115T121246
+[2025-11-15T12:12:46.220+0000] {job.py:229} INFO - Heartbeat recovered after 32.55 seconds
+[2025-11-15T12:12:46.261+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-11-15T12:12:46.262+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-11-15T12:12:46.262+0000] {logging_mixin.py:190} INFO - Dag name:iot_sensor_data_dag queued_at:2025-11-15 12:07:31.022750+00:00
+[2025-11-15T12:12:46.263+0000] {logging_mixin.py:190} INFO - Task hostname:4f76d54186b6 operator:PythonOperator
+[2025-11-15T12:12:46.285+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-15T12:12:46.316+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-11-15T12:12:46.322+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

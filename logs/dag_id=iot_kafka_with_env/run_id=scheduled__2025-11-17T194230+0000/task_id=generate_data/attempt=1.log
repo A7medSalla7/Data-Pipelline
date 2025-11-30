@@ -1,0 +1,28 @@
+[2025-11-17T19:42:56.397+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-11-17T19:42:56.507+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: iot_kafka_with_env.generate_data scheduled__2025-11-17T19:42:30+00:00 [queued]>
+[2025-11-17T19:42:56.512+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: iot_kafka_with_env.generate_data scheduled__2025-11-17T19:42:30+00:00 [queued]>
+[2025-11-17T19:42:56.513+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-11-17T19:42:56.523+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): generate_data> on 2025-11-17 19:42:30+00:00
+[2025-11-17T19:42:56.528+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=380) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-11-17T19:42:56.531+0000] {standard_task_runner.py:72} INFO - Started process 382 to run task
+[2025-11-17T19:42:56.530+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'iot_kafka_with_env', 'generate_data', 'scheduled__2025-11-17T19:42:30+00:00', '--job-id', '2552', '--raw', '--subdir', 'DAGS_FOLDER/IOT.py', '--cfg-path', '/tmp/tmpl89x8pb9']
+[2025-11-17T19:42:56.532+0000] {standard_task_runner.py:105} INFO - Job 2552: Subtask generate_data
+[2025-11-17T19:42:56.576+0000] {task_command.py:467} INFO - Running <TaskInstance: iot_kafka_with_env.generate_data scheduled__2025-11-17T19:42:30+00:00 [running]> on host 4f76d54186b6
+[2025-11-17T19:42:56.631+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='iot_kafka_with_env' AIRFLOW_CTX_TASK_ID='generate_data' AIRFLOW_CTX_EXECUTION_DATE='2025-11-17T19:42:30+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-11-17T19:42:30+00:00'
+[2025-11-17T19:42:56.632+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-11-17T19:42:56.632+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-11-17T19:42:56.633+0000] {logging_mixin.py:190} INFO - Current task name:generate_data state:running start_date:2025-11-17 19:42:56.507978+00:00
+[2025-11-17T19:42:56.633+0000] {logging_mixin.py:190} INFO - Dag name:iot_kafka_with_env and current dag run status:running
+[2025-11-17T19:42:56.633+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-11-17T19:42:56.634+0000] {python.py:218} INFO - Done. Returned value was: {'time': '2025-11-17T19:42:56.634202', 'temperature': 27.6716292166983, 'Dissolved_oxygen': 5.90974211359354, 'PH': 7.44486523447294, 'Ammonia': 0.010725917525951341, 'Nitrite': 0.05167452616919742, 'Turbidty': 40.052918458631275}
+[2025-11-17T19:42:56.649+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-11-17T19:42:56.650+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=iot_kafka_with_env, task_id=generate_data, run_id=scheduled__2025-11-17T19:42:30+00:00, execution_date=20251117T194230, start_date=20251117T194256, end_date=20251117T194256
+[2025-11-17T19:42:56.665+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-11-17T19:42:56.666+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-11-17T19:42:56.666+0000] {logging_mixin.py:190} INFO - Dag name:iot_kafka_with_env queued_at:2025-11-17 19:42:55.383390+00:00
+[2025-11-17T19:42:56.666+0000] {logging_mixin.py:190} INFO - Task hostname:4f76d54186b6 operator:PythonOperator
+[2025-11-17T19:42:56.705+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-11-17T19:42:56.722+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-11-17T19:42:56.724+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

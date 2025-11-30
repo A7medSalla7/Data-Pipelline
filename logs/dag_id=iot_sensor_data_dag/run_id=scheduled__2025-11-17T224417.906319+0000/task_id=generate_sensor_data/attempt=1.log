@@ -1,0 +1,9 @@
+{"timestamp":"2025-11-17T22:44:19.366743Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2025-11-17T22:44:19.367874Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/DEPI.py","logger":"airflow.models.dagbag.DagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2025-11-17T22:44:19.459106Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2025-11-17T22:44:19.459835Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2025-11-17T22:44:19.460110Z","level":"info","event":"Current task name:generate_sensor_data","logger":"task.stdout"}
+{"timestamp":"2025-11-17T22:44:19.460491Z","level":"info","event":"Dag name:iot_sensor_data_dag","logger":"task.stdout"}
+{"timestamp":"2025-11-17T22:44:23.397266Z","level":"error","event":"%3|1763419463.397|FAIL|rdkafka#producer-1| [thrd:kafka:9092/bootstrap]: kafka:9092/bootstrap: Failed to resolve 'kafka:9092': Name or service not known (after 3935ms in state CONNECT)","logger":"task.stderr"}
+{"timestamp":"2025-11-17T22:44:28.462980Z","level":"error","event":"%3|1763419468.462|FAIL|rdkafka#producer-1| [thrd:kafka:9092/bootstrap]: kafka:9092/bootstrap: Failed to resolve 'kafka:9092': Name or service not known (after 3971ms in state CONNECT, 1 identical error(s) suppressed)","logger":"task.stderr"}
+{"timestamp":"2025-11-17T22:45:01.081024Z","level":"error","event":"%3|1763419501.080|FAIL|rdkafka#producer-1| [thrd:kafka:9092/bootstrap]: kafka:9092/bootstrap: Failed to resolve 'kafka:9092': Name or service not known (after 3553ms in state CONNECT, 5 identical error(s) suppressed)","logger":"task.stderr"}

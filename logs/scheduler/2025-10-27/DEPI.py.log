@@ -1,0 +1,30 @@
+[2025-10-27T11:17:33.935+0000] {processor.py:186} INFO - Started process (PID=57) to work on /opt/airflow/dags/DEPI.py
+[2025-10-27T11:17:33.937+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DEPI.py for tasks to queue
+[2025-10-27T11:17:33.940+0000] {logging_mixin.py:190} INFO - [2025-10-27T11:17:33.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DEPI.py
+[2025-10-27T11:17:34.092+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/plyer/platforms/linux/notification.py:103 UserWarning: The Python dbus package is not installed.
+Try installing it with your distribution's package manager, it is usually called python-dbus or python3-dbus, but you might have to try dbus-python instead, e.g. when using pip.
+[2025-10-27T11:17:34.094+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/plyer/platforms/linux/notification.py:107 UserWarning: notify-send not found.
+[2025-10-27T11:17:34.097+0000] {processor.py:925} INFO - DAG(s) 'iot_sensor_data_dag' retrieved from /opt/airflow/dags/DEPI.py
+[2025-10-27T11:17:34.117+0000] {logging_mixin.py:190} INFO - [2025-10-27T11:17:34.117+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T11:17:34.136+0000] {logging_mixin.py:190} INFO - [2025-10-27T11:17:34.136+0000] {dag.py:4180} INFO - Setting next_dagrun for iot_sensor_data_dag to 2025-10-27 11:17:30+00:00, run_after=2025-10-27 11:17:45+00:00
+[2025-10-27T11:17:34.155+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DEPI.py took 0.225 seconds
+[2025-10-27T11:18:04.248+0000] {processor.py:186} INFO - Started process (PID=122) to work on /opt/airflow/dags/DEPI.py
+[2025-10-27T11:18:04.249+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DEPI.py for tasks to queue
+[2025-10-27T11:18:04.252+0000] {logging_mixin.py:190} INFO - [2025-10-27T11:18:04.251+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DEPI.py
+[2025-10-27T11:18:04.350+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/plyer/platforms/linux/notification.py:103 UserWarning: The Python dbus package is not installed.
+Try installing it with your distribution's package manager, it is usually called python-dbus or python3-dbus, but you might have to try dbus-python instead, e.g. when using pip.
+[2025-10-27T11:18:04.352+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/plyer/platforms/linux/notification.py:107 UserWarning: notify-send not found.
+[2025-10-27T11:18:04.354+0000] {processor.py:925} INFO - DAG(s) 'iot_sensor_data_dag' retrieved from /opt/airflow/dags/DEPI.py
+[2025-10-27T11:18:04.370+0000] {logging_mixin.py:190} INFO - [2025-10-27T11:18:04.370+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T11:18:04.387+0000] {logging_mixin.py:190} INFO - [2025-10-27T11:18:04.386+0000] {dag.py:4180} INFO - Setting next_dagrun for iot_sensor_data_dag to 2025-10-27 11:18:00+00:00, run_after=2025-10-27 11:18:15+00:00
+[2025-10-27T11:18:04.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DEPI.py took 0.162 seconds
+[2025-10-27T11:18:35.259+0000] {processor.py:186} INFO - Started process (PID=187) to work on /opt/airflow/dags/DEPI.py
+[2025-10-27T11:18:35.260+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/DEPI.py for tasks to queue
+[2025-10-27T11:18:35.263+0000] {logging_mixin.py:190} INFO - [2025-10-27T11:18:35.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/DEPI.py
+[2025-10-27T11:18:35.345+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/plyer/platforms/linux/notification.py:103 UserWarning: The Python dbus package is not installed.
+Try installing it with your distribution's package manager, it is usually called python-dbus or python3-dbus, but you might have to try dbus-python instead, e.g. when using pip.
+[2025-10-27T11:18:35.347+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/plyer/platforms/linux/notification.py:107 UserWarning: notify-send not found.
+[2025-10-27T11:18:35.349+0000] {processor.py:925} INFO - DAG(s) 'iot_sensor_data_dag' retrieved from /opt/airflow/dags/DEPI.py
+[2025-10-27T11:18:35.365+0000] {logging_mixin.py:190} INFO - [2025-10-27T11:18:35.365+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-10-27T11:18:35.381+0000] {logging_mixin.py:190} INFO - [2025-10-27T11:18:35.380+0000] {dag.py:4180} INFO - Setting next_dagrun for iot_sensor_data_dag to 2025-10-27 11:18:30+00:00, run_after=2025-10-27 11:18:45+00:00
+[2025-10-27T11:18:35.397+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/DEPI.py took 0.142 seconds
